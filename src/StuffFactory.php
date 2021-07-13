@@ -17,7 +17,7 @@ class StuffFactory
 		if ($stuffs) {
  		    $this->stuffs = $stuffs;
 
-		}
+		} 
 	}
 
 	public function getRandomStuff()
