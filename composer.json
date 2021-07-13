@@ -1,0 +1,26 @@
+{
+    "name": "dvit/rev-package-creation",
+    "description": "Create random processes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rev Mangalindan",
+            "email": "rev.mangalindan@davidvenneit.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dvit\\RandomProcesses\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dvit\\RandomProcesses\\": "test/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
