@@ -2,10 +2,12 @@
 
 namespace Dvit\RandomProcesses;
 
+// 2.0.0
+
 class StuffFactory
 {
 	protected $stuffs = [
-	    'Random Stuff For Basketball',
+	    'Random Stuff For Basketball Elite',
 		'Random Stuff For Baseball',
 		'Random Stuff For Volleyball'			    
 	];
@@ -21,6 +23,6 @@ class StuffFactory
 	public function getRandomStuff()
 	{
 	    return $this->stuffs[array_rand($this->stuffs)];
-	}
+	} 
  
 }
